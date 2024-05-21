@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	background: #131413;
+}
+
+.subscribe-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-image: url('https://safe.global/images/Home/bg-circuits.png');
+}
+
+.left-video,
+.right-video {
+	transition: transform 1s ease-in-out;
+}
+
+.text-content {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.move-left {
+	transform: translateX(-100%);
+}
+
+.move-right {
+	transform: translateX(100%);
+}
+
+.show {
+	opacity: 1;
+}
