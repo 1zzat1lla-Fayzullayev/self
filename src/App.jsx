@@ -11,6 +11,7 @@ import Security from './components/Security'
 import Ecosystem from './components/Ecosystem'
 import Blog from './components/Blog'
 import Governance from './components/Governance'
+import GetApp from './components/GetApp'
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 			<Ecosystem />
 			<Blog />
 			<Governance />
+			<GetApp />
 		</>
 	)
 }

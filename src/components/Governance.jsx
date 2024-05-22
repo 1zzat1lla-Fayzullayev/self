@@ -59,7 +59,7 @@ function Governance() {
 						<h2 className='text-white text-[25px] font-semibold text-center'>
 							Want to reach the Core Contributors?
 						</h2>
-						<button className='bg-[#12B75F] py-3 px-6 font-semibold text-black rounded-[5px]'>
+						<button className='bg-[#12B75F] py-3 px-6 mb-[40px] font-semibold text-black rounded-[5px]'>
 							Contact us
 						</button>
 					</div>
