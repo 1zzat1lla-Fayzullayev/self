@@ -5,7 +5,7 @@ import manifestobg from '../assets/manifesto-bg.png'
 
 function SmartAccount() {
 	return (
-		<div className='mt-[200px]'>
+		<div className='mt-[50px] md:mt-[200px]'>
 			<Wrapper>
 				<div className='flex flex-col md:flex-row items-center justify-center'>
 					<div className='flex flex-col'>

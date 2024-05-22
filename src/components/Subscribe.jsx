@@ -37,7 +37,7 @@ function Subscribe() {
 					<p className='text-[#A0A2A6] font-semibold text-[17px] pt-[50px]'>
 						ENTRUSTED TO KEEP YOUR ASSETS SAFE
 					</p>
-					<h2 className='text-white font-semibold text-[50px] leading-[55px] w-[80%] mt-[15px]'>
+					<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[55px] w-[80%] mt-[15px]'>
 						Safe Smart Accounts are battle tested and used more than any other
 					</h2>
 				</div>
