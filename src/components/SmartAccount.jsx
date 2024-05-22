@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from '../layout/Wrapper'
 import rightArrow from '../assets/right-arrow.png'
-
+import manifestobg from '../assets/manifesto-bg.png'
 
 function SmartAccount() {
 	return (
@@ -34,7 +34,7 @@ function SmartAccount() {
 					</div>
 					<div className='relative flex flex-col'>
 						<img
-							src='https://safe.global/images/Home/manifesto-bg.png'
+							src={manifestobg}
 							alt='404'
 							className='absolute w-full md:w-[500px]'
 						/>

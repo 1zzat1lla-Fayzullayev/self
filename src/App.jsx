@@ -8,6 +8,7 @@ import SecondSlider from './components/SecondSlider'
 import LearnMoreCard from './components/LearnMoreCard'
 import Account from './components/Account'
 import Security from './components/Security'
+import Ecosystem from './components/Ecosystem'
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 			<LearnMoreCard />
 			<Account />
 			<Security />
+			<Ecosystem />
 		</>
 	)
 }
