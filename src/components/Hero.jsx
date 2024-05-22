@@ -21,7 +21,7 @@ function Hero() {
 						type='video/mp4'
 					/>
 				</video>
-				<h1 className='absolute text-[50px] md:text-[70px] text-white w-full md:w-[50%] font-semibold text-center leading-[70px]'>
+				<h1 className='absolute text-[50px] md:text-[70px] text-white w-full md:w-[50%] font-semibold text-center leading-[55px] md:leading-[70px]'>
 					Smart Accounts to{' '}
 					<span className='text-[#12FF80]'>Own the Internet</span>{' '}
 				</h1>

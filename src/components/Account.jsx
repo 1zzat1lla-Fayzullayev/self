@@ -7,7 +7,7 @@ function Account() {
 		<>
 			<Wrapper>
 				<div className='flex flex-col justify-center mt-[150px]'>
-					<h1 className='text-white font-semibold text-[30px] md:text-[50px] text-center'>
+					<h1 className='text-white font-semibold text-[30px] md:text-[50px] text-center mx-[20px] md:mx-0'>
 						Full stack Account Abstraction
 					</h1>
 					<div className='mt-[80px] mx-[15px] md:mx-0'>
