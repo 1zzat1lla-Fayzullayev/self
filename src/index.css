@@ -71,5 +71,14 @@ body {
 .governance-container {
 	position: relative;
 	overflow: hidden;
-	background-image: url('./assets/bg-glass.png');
+	background: linear-gradient(
+			to bottom,
+			rgba(19, 20, 19, 1) 0%,
+			rgba(19, 20, 19, 0) 20%,
+			rgba(19, 20, 19, 0) 70%,
+			rgba(19, 20, 19, 1) 100%
+		),
+		url('./assets/bg-glass.png');
+	background-size: cover;
+	background-position: center;
 }

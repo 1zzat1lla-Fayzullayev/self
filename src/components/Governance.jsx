@@ -5,7 +5,7 @@ import governance from '../array/GovernanceArr'
 function Governance() {
 	return (
 		<>
-			<div className='governance-container h-full mt-[100px]'>
+			<div className='governance-container mt-[100px]'>
 				<Wrapper>
 					<p className='uppercase font-semibold text-[#A1A3A7] m-[20px] md:m-0'>
 						governance
@@ -24,7 +24,10 @@ function Governance() {
 					</div>
 					<div className='flex flex-col md:flex-row justify-center items-center gap-[15px] mt-[70px] mx-[20px] md:mx-0'>
 						{governance.map(card => (
-							<div className='relative card1 flex flex-col border-[1px] rounded-[20px] border-[#303033] hover:border-[#12FF80] max-w-[400px] h-[220px] cursor-pointer w-full shadow-lg bg-[#121312]'>
+							<div
+								key={card.title}
+								className='relative card1 flex flex-col border-[1px] rounded-[20px] border-[#303033] hover:border-[#12FF80] max-w-[400px] h-[220px] cursor-pointer w-full shadow-lg bg-[#121312]'
+							>
 								<p className='text-[#A1A3A7] font-semibold mt-[30px] ml-[15px] uppercase'>
 									{card.title}
 								</p>
