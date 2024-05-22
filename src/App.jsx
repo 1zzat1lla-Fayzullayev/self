@@ -12,6 +12,7 @@ import Ecosystem from './components/Ecosystem'
 import Blog from './components/Blog'
 import Governance from './components/Governance'
 import GetApp from './components/GetApp'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 			<Blog />
 			<Governance />
 			<GetApp />
+			<Footer />
 		</>
 	)
 }
