@@ -56,3 +56,8 @@ body {
 	transform: rotate(0);
 	color: #12ff80;
 }
+
+.security:hover .bug {
+	color: #12ff80;
+	border-bottom: 2px solid;
+}

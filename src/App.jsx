@@ -7,6 +7,7 @@ import FirstSlider from './components/FirstSlider'
 import SecondSlider from './components/SecondSlider'
 import LearnMoreCard from './components/LearnMoreCard'
 import Account from './components/Account'
+import Security from './components/Security'
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<SecondSlider />
 			<LearnMoreCard />
 			<Account />
+			<Security />
 		</>
 	)
 }
