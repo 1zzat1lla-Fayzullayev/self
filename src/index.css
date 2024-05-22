@@ -67,3 +67,9 @@ body {
 	overflow: hidden;
 	background-image: url('https://safe.global/images/unlock-bg.svg');
 }
+
+.governance-container {
+	position: relative;
+	overflow: hidden;
+	background-image: url('./assets/bg-glass.png');
+}
