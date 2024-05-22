@@ -24,22 +24,86 @@ function Navbar() {
 						</div>
 						<ul className='md:flex items-center text-[#9DA0A2] font-semibold gap-[25px] hidden'>
 							<li>
-								<a href='#'>Developers</a>
+								<div className='dropdown'>
+									<a href='#' className='hover:text-white'>
+										Developers
+									</a>
+									<ul className='dropdown-content z-[1] menu p-2 shadow-lg bg-black rounded-[5px] w-52 mt-[10px] border-[1px] border-gray-600 text-white shad'>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Safe (CORE)</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Documentation</a>
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
-								<a href='#'>Wallet</a>
+								<a href='#' className='hover:text-white'>
+									Wallet
+								</a>
 							</li>
 							<li>
-								<a href='#'>Ecosystem</a>
+								<div className='dropdown'>
+									<a href='#' className='hover:text-white'>
+										Ecosystem
+									</a>
+									<ul className='dropdown-content z-[1] menu p-2 shadow-lg bg-black rounded-[5px] w-52 mt-[10px] border-[1px] border-gray-600 text-white shad'>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Projects</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Grants</a>
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
-								<a href='#'>Community</a>
+								<div className='dropdown'>
+									<a href='#' className='hover:text-white'>
+										Community
+									</a>
+									<ul className='dropdown-content z-[1] menu p-2 shadow-lg bg-black rounded-[5px] w-52 mt-[10px] border-[1px] border-gray-600 text-white shad'>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Governance</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Safe TOKEN</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Safe (Pass)</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Safe (Con)</a>
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
-								<a href='#'>Resources</a>
+								<div className='dropdown'>
+									<a href='#' className='hover:text-white'>
+										Resources
+									</a>
+									<ul className='dropdown-content z-[1] menu p-2 shadow-lg bg-black rounded-[5px] w-52 mt-[10px] border-[1px] border-gray-600 text-white shad'>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Blog</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Careers</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Press room</a>
+										</li>
+										<li className='hover:bg-gray-800 rounded-[5px]'>
+											<a>Help center</a>
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
-								<a href='#'>Safe (PASS)</a>
+								<a href='#' className='hover:text-white'>
+									Safe (PASS)
+								</a>
 							</li>
 						</ul>
 						<button className='bg-[#12FF80] py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block'>
