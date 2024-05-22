@@ -30,7 +30,7 @@ function Subscribe() {
 	return (
 		<div
 			ref={ref}
-			className='mt-[100px] subscribe-container flex justify-center items-center flex-col'
+			className='mt-[100px] subscribe-container h-full flex justify-center items-center flex-col'
 		>
 			<Wrapper>
 				<div className='flex flex-col items-center justify-center text-start'>
@@ -106,7 +106,9 @@ function Subscribe() {
 								</div>
 							</ul>
 						</div>
-						<div className={`right-video ${inView ? 'move-right' : ''}`}>
+						<div
+							className={`right-video ${inView ? 'move-right' : ''} pb-[100px]`}
+						>
 							<video
 								src='https://safe.global/videos/Home/brackets-right-vp9.webm'
 								autoPlay

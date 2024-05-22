@@ -14,11 +14,17 @@ body {
 
 .subscribe-container {
 	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	overflow: hidden;
-	background-image: url('https://safe.global/images/Home/bg-circuits.png');
+	background: linear-gradient(
+			to bottom,
+			rgba(19, 20, 19, 1) 0%,
+			rgba(19, 20, 19, 0) 20%,
+			rgba(19, 20, 19, 0) 70%,
+			rgba(19, 20, 19, 1) 100%
+		),
+		url('./assets/bg-circuits.png');
+	background-size: cover;
+	background-position: center;
 }
 
 .left-video,
@@ -65,7 +71,16 @@ body {
 .blog-container {
 	position: relative;
 	overflow: hidden;
-	background-image: url('https://safe.global/images/unlock-bg.svg');
+	background: linear-gradient(
+			to bottom,
+			rgba(19, 20, 19, 1) 0%,
+			rgba(19, 20, 19, 0) 20%,
+			rgba(19, 20, 19, 0) 70%,
+			rgba(19, 20, 19, 1) 100%
+		),
+		url('./assets/unlock-bg.svg');
+	background-size: cover;
+	background-position: center;
 }
 
 .governance-container {
