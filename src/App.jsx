@@ -5,6 +5,8 @@ import SmartAccount from './components/SmartAccount'
 import Subscribe from './components/Subscribe'
 import FirstSlider from './components/FirstSlider'
 import SecondSlider from './components/SecondSlider'
+import LearnMoreCard from './components/LearnMoreCard'
+import Account from './components/Account'
 
 function App() {
 	return (
@@ -15,6 +17,8 @@ function App() {
 			<Subscribe />
 			<FirstSlider />
 			<SecondSlider />
+			<LearnMoreCard />
+			<Account />
 		</>
 	)
 }

@@ -63,8 +63,8 @@ function Subscribe() {
 						</div>
 						<div className={`text-content ${inView ? 'show' : ''}`}>
 							<ul className='flex flex-col md:flex-row items-center gap-[70px]'>
-								<div className='flex flex-col'>
-									<li className='text-[#19FC8B] text-[70px] font-semibold'>
+								<div className='flex flex-col items-center justify-center md:items-start md:justify-start'>
+									<li className='text-[#19FC8B] text-[50px] md:text-[70px] font-semibold'>
 										{counterOn && (
 											<CountUp start={0} end={56} duration={2} delay={0} />
 										)}
@@ -75,7 +75,7 @@ function Subscribe() {
 									</li>
 								</div>
 								<div>
-									<li className='text-[#19FC8B] text-[70px] font-semibold'>
+									<li className='text-[#19FC8B] text-[50px] md:text-[70px] font-semibold'>
 										$
 										{counterOn && (
 											<CountUp start={0} end={100} duration={2} delay={0} />
@@ -87,9 +87,15 @@ function Subscribe() {
 									</li>
 								</div>
 								<div>
-									<li className='text-[#19FC8B] text-[70px] font-semibold'>
+									<li className='text-[#19FC8B] text-[50px] md:text-[70px] font-semibold'>
 										{counterOn && (
-											<CountUp start={0} end={8.7} duration={2} delay={0} decimals={1}/>
+											<CountUp
+												start={0}
+												end={8.7}
+												duration={2}
+												delay={0}
+												decimals={1}
+											/>
 										)}
 										M
 									</li>

@@ -16,7 +16,7 @@ function SmartAccount() {
 							Safe envisions a future where every onchain account is a <br />
 							<span className='text-[#12FF80]'>smart account</span>
 						</h2>
-						<div className='flex items-center mt-[70px]'>
+						<div className='flex items-center justify-center md:justify-start mt-[10px] md:mt-[70px]'>
 							<a
 								href='#'
 								className={`text-white text-[20px] text-center md:text-start hover:text-[#12FF80] hover:border-b-[2px] border-[#12FF80] pb-[2px]`}

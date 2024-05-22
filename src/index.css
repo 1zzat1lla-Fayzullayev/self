@@ -42,3 +42,17 @@ body {
 .show {
 	opacity: 1;
 }
+
+.card1:hover {
+	box-shadow: 5px 10px 15px #12ff8157;
+}
+
+.card1:hover .learn_more {
+	color: #12ff80;
+	border-bottom: 2px solid;
+}
+
+.card1:hover .arrow {
+	transform: rotate(0);
+	color: #12ff80;
+}
