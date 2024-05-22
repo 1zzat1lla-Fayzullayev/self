@@ -9,6 +9,7 @@ import LearnMoreCard from './components/LearnMoreCard'
 import Account from './components/Account'
 import Security from './components/Security'
 import Ecosystem from './components/Ecosystem'
+import Blog from './components/Blog'
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			<Account />
 			<Security />
 			<Ecosystem />
+			<Blog />
 		</>
 	)
 }
