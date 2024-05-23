@@ -6,7 +6,7 @@ function LearnMoreCard() {
 	return (
 		<>
 			<Wrapper>
-				<div className='flex mx-[15px] md:mx-0 flex-col md:flex-row items-center justify-center gap-[30px]'>
+				<div className='flex mx-[15px] md:mx-0 flex-col md:flex-row items-center justify-center gap-[30px] mt-[200px]'>
 					<div className='relative card1 flex flex-col items-center border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] max-w-[580px] cursor-pointer w-full shadow-lg'>
 						<p className='text-[#A1A3A7] font-semibold mt-[30px]'>USER</p>
 						{/* Inline SVG */}
