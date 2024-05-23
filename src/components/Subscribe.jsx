@@ -106,9 +106,7 @@ function Subscribe() {
 								</div>
 							</ul>
 						</div>
-						<div
-							className={`right-video ${inView ? 'move-right' : ''} pb-[100px]`}
-						>
+						<div className={`right-video ${inView ? 'move-right' : ''}`}>
 							<video
 								src='https://safe.global/videos/Home/brackets-right-vp9.webm'
 								autoPlay
