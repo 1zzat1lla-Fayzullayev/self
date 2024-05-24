@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import SmartAccount from './components/SmartAccount'
 import Subscribe from './components/Subscribe'
 import SecondSlider from './components/SecondSlider'
-import LearnMoreCard from './components/LearnMoreCard'
+// import LearnMoreCard from './components/LearnMoreCard'
 import Account from './components/Account'
 import Security from './components/Security'
 import Ecosystem from './components/Ecosystem'
@@ -21,7 +21,7 @@ function App() {
 			<SmartAccount />
 			<Subscribe />
 			<SecondSlider />
-			<LearnMoreCard />
+			{/* <LearnMoreCard /> */}
 			<Account />
 			<Security />
 			<Ecosystem />
