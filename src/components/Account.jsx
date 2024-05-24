@@ -40,12 +40,11 @@ function Account() {
 					</div>
 				</div>
 
-				<div className='flex flex-col md:flex-row mx-[15px] md:mx-0 justify-center items-center gap-[20px] mt-[50px]'>
+				{/* <div className='flex flex-col md:flex-row mx-[15px] md:mx-0 justify-center items-center gap-[20px] mt-[50px]'>
 					<div className='relative card1 flex flex-col  border-[1px] rounded-[20px] border-[#303033] hover:border-[#12FF80] max-w-[400px] cursor-pointer w-full shadow-lg'>
 						<p className='text-[#A1A3A7] font-semibold mt-[30px] ml-[15px] uppercase'>
 							PROTOCOL KIT
 						</p>
-						{/* Inline SVG */}
 						<div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
 							<svg
 								width='35'
@@ -78,7 +77,6 @@ function Account() {
 						<p className='text-[#A1A3A7] font-semibold mt-[30px] ml-[15px] uppercase'>
 							Explore docs
 						</p>
-						{/* Inline SVG */}
 						<div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
 							<svg
 								width='35'
@@ -111,7 +109,6 @@ function Account() {
 						<p className='text-[#A1A3A7] font-semibold mt-[30px] ml-[15px] uppercase'>
 							sdk
 						</p>
-						{/* Inline SVG */}
 						<div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
 							<svg
 								width='35'
@@ -140,7 +137,7 @@ function Account() {
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</Wrapper>
 		</>
 	)

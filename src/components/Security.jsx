@@ -39,7 +39,7 @@ function Security() {
 					<div className='mx-[20px] md:mx-0 md:w-[44%]'>
 						<p className='text-[#A1A3A7] font-semibold'>SECURITY</p>
 						<h2 className='text-[40px] md:text-[60px] text-white leading-[55px] mt-[30px]'>
-							Safe Smart Accounts are the {''}
+							Indao Smart Accounts are the {''}
 							<span className='text-[#12FF80]'>most audited</span> and {''}
 							<span className='text-[#12FF80]'>battle-tested</span> {''}
 						</h2>

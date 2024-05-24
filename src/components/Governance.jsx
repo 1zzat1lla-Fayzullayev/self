@@ -13,13 +13,13 @@ function Governance() {
 					<div className='flex flex-col md:flex-row gap-[80px] mt-[50px] mx-[20px] md:mx-0'>
 						<h2 className='text-white font-semibold text-[50px] leading-[55px]'>
 							{' '}
-							<span className='text-[#12FF80]'>Safe (DAO)</span> governs the
-							future of Safe
+							<span className='text-[#12FF80]'>Indao (DAO)</span> governs the
+							future of Indao
 						</h2>
 						<p className='font-semibold text-[#A1A3A7] text-[17px]'>
-							Safe is governed by SafeDAO, a decentralized collective of core
+							Indao is governed by IndaoDAO, a decentralized collective of core
 							contributors, backers, GnosisDAO, users, and ecosystem
-							contributors i.e Safe(Guardians).
+							contributors i.e Indao(Guardians).
 						</p>
 					</div>
 					<div className='flex flex-col md:flex-row justify-center items-center gap-[15px] mt-[70px] mx-[20px] md:mx-0'>

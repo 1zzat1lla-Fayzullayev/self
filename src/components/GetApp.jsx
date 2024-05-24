@@ -11,11 +11,11 @@ function GetApp() {
 				<Wrapper>
 					<div className='flex flex-col items-center justify-center'>
 						<h2 className='text-[30px] md:text-[45px] text-black font-semibold md:w-[40%] text-center leading-[45px] mt-[50px]'>
-							Use Safe (WALLET) anywhere
+							Use Indao (WALLET) anywhere
 						</h2>
 						<p className='font-semibold text-[17px] md:w-[50%] text-center mt-[20px]'>
 							Access your assets anywhere without compromising on security with
-							our flagship interfaces built on Safe Core
+							our flagship interfaces built on Indao Core
 						</p>
 					</div>
 					<div className='flex flex-col md:flex-row justify-center items-center gap-3 mt-[50px]'>

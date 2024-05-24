@@ -15,7 +15,7 @@ function Blog() {
 					<div className='flex flex-col md:flex-row justify-between items-center mx-[20px] md:mx-0 gap-[40px]'>
 						<div className=''>
 							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[55px]'>
-								Follow as Safe embeds{' '}
+								Follow as Indao embeds{' '}
 								<span className='text-[#12FF80]'>ownership</span> across
 								use-cases
 							</h2>

@@ -35,10 +35,10 @@ function Subscribe() {
 			<Wrapper>
 				<div className='flex flex-col items-center justify-center text-start'>
 					<p className='text-[#A0A2A6] font-semibold text-[17px] pt-[50px]'>
-						ENTRUSTED TO KEEP YOUR ASSETS SAFE
+						ENTRUSTED TO KEEP YOUR ASSETS INDAO
 					</p>
 					<h2 className='text-white font-semibold text-[35px] md:text-[50px] md:leading-[55px] w-[80%] mt-[15px]'>
-						<span className='italic'>Safe</span> Smart Accounts are battle
+						<span className='italic'>Indao</span> Smart Accounts are battle
 						tested and used more than any other
 					</h2>
 				</div>

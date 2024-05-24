@@ -39,7 +39,7 @@ function LearnMoreCard() {
 							></video>
 						</div>
 						<div className='bg-[#12FF80] rounded-[5px] py-[2px] px-[5px]'>
-							<h2 className='font-semibold text-[20px]'>Safe (Wallet)</h2>
+							<h2 className='font-semibold text-[20px]'>Indao (Wallet)</h2>
 						</div>
 						<h2 className='text-white font-semibold text-[28px] text-center mt-[5px]'>
 							Use the most secure <br /> multi-sig wallet
@@ -81,7 +81,7 @@ function LearnMoreCard() {
 							></video>
 						</div>
 						<div className='bg-[#12FF80] rounded-[5px] py-[2px] px-[5px]'>
-							<h2 className='font-semibold text-[20px]'>Safe (CORE)</h2>
+							<h2 className='font-semibold text-[20px]'>Indao (CORE)</h2>
 						</div>
 						<h2 className='text-white font-semibold text-[28px] text-center mt-[5px]'>
 							The most battle-tested <br /> Account Abstraction Stack

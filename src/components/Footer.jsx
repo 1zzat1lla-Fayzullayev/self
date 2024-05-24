@@ -16,7 +16,7 @@ function Footer() {
 						</li>
 						<li>
 							<a href='#' className='text-[#848689]'>
-								Safe (Core)
+								Indao (Core)
 							</a>
 						</li>
 						<li>
@@ -60,12 +60,12 @@ function Footer() {
 						</li>
 						<li>
 							<a href='#' className='text-[#848689]'>
-								Safe(Pass)
+								Indao(Pass)
 							</a>
 						</li>
 						<li>
 							<a href='#' className='text-[#848689]'>
-								Safe(Con)
+								Indao(Con)
 							</a>
 						</li>
 					</ul>
@@ -125,7 +125,7 @@ function Footer() {
 						</li>
 					</ul>
 					<p className='font-semibold text-[#848689]'>
-						©2023–2024 Safe Ecosystem Foundation
+						©2023–2024 Indao Ecosystem Foundation
 					</p>
 				</div>
 			</Wrapper>
