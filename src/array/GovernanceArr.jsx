@@ -1,7 +1,7 @@
 const governance = [
 	{
 		title: 'be part of a community',
-		desc: 'SAFE Token',
+		desc: 'INDAO Token',
 	},
 	{
 		title: 'join a discussion',
