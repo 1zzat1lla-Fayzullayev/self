@@ -1,6 +1,4 @@
 import React from 'react'
-import close from '../assets/close.png'
-import logo from '../assets/logo.png'
 
 function MobNavbar({ showMobile }) {
 	return (
