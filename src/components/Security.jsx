@@ -29,35 +29,54 @@ function Security() {
 						alt='Check'
 						className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[8%] top-[2%] md:top-0'
 					/>
-					<ul className='relative z-20'>
-						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
-							<img src={code} alt='code' />
-							Финансы и банкинг
-							<Tooltip
-								text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег.<br /><br />Безопасная аутентификация для онлайн-банкинга и финансовых сервисов.<br /><br />Управление цифровыми активами и инвестициями с помощью DID.`}
-							/>
-						</li>
-						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
-							<img src={code} alt='code' />
-							Образование и HR
-							<Tooltip
-								text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных.<br /><br />Подтверждение квалификации и опыта соискателей при найме на работу.<br /><br />Создание децентрализованных систем репутации и портфолио.`}
-							/>
-						</li>
-						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
-							<img src={code} alt='code' />
-							Электронное правительство
-							<Tooltip
-								text={`Безопасная аутентификация граждан для доступа к госуслугам.<br /><br />Проведение выборов и голосований с верификацией личности избирателей.<br /><br />Борьба с коррупцией через прозрачные реестры на блокчейне.`}
-							/>
-						</li>
-						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
-							<img src={code} alt='code' />
-							Цепочки поставок и логистика
-							<Tooltip
-								text={`Отслеживание происхождения и подлинности товаров.<br /><br />Верификация личности участников цепочки поставок.<br /><br />Автоматизация таможенного оформления и сертификации грузов.`}
-							/>
-						</li>
+					<ul className='relative z-20 flex'>
+						<div>
+							<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+								<img src={code} alt='code' />
+								Финансы и банкинг
+								<Tooltip
+									text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег.<br /><br />Безопасная аутентификация для онлайн-банкинга и финансовых сервисов.<br /><br />Управление цифровыми активами и инвестициями с помощью DID.`}
+								/>
+							</li>
+							<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+								<img src={code} alt='code' />
+								Образование и HR
+								<Tooltip
+									text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных.<br /><br />Подтверждение квалификации и опыта соискателей при найме на работу.<br /><br />Создание децентрализованных систем репутации и портфолио.`}
+								/>
+							</li>
+							<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+								<img src={code} alt='code' />
+								Электронное правительство
+								<Tooltip
+									text={`Безопасная аутентификация граждан для доступа к госуслугам.<br /><br />Проведение выборов и голосований с верификацией личности избирателей.<br /><br />Борьба с коррупцией через прозрачные реестры на блокчейне.`}
+								/>
+							</li>
+						</div>
+
+						<div>
+							<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+								<img src={code} alt='code' />
+								Цепочки поставок и логистика
+								<Tooltip
+									text={`Отслеживание происхождения и подлинности товаров.<br /><br />Верификация личности участников цепочки поставок.<br /><br />Автоматизация таможенного оформления и сертификации грузов.`}
+								/>
+							</li>
+							<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+								<img src={code} alt='code' />
+								Недвижимость и земельные кадастры
+								<Tooltip
+									text={`Создание надежных реестров прав собственности на базе блокчейна <br /><br />Упрощение процедур купли-продажи и регистрации недвижимости <br /><br />Токенизация недвижимости для инвестиций и коллективного владения`}
+								/>
+							</li>
+							<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+								<img src={code} alt='code' />
+								Страхование
+								<Tooltip
+									text={`Верификация личности страхователей для борьбы с мошенничеством <br /><br />Безопасный обмен данными с андеррайтерами и медучреждениями <br /><br />Автоматизированная оценка рисков и персонализация страховых продуктов`}
+								/>
+							</li>
+						</div>
 					</ul>
 				</div>
 				<div className='mx-[20px] md:mx-0 md:w-[44%]'>
