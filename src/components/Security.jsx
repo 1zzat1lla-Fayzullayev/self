@@ -11,7 +11,7 @@ import code from '../assets/code.png'
 
 function Tooltip({ text }) {
 	return (
-		<div className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[350px] bg-black text-white text-sm rounded-lg shadow-lg p-[20px] opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-10'>
+		<div className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[350px] bg-black text-white text-sm rounded-lg shadow-lg p-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10'>
 			{text}
 		</div>
 	)
@@ -21,26 +21,28 @@ function Security() {
 	return (
 		<Wrapper>
 			<div className='relative flex justify-center flex-col md:flex-row items-start gap-[60px] mt-[150px]'>
-				<div className='flex flex-col mx-[20px] md:mx-0'>
+				<div className='flex flex-col mx-[20px] md:mx-0 relative'>
 					<img src={checkbg} alt='Background' className='' />
 					<img
 						src={check}
 						alt='Check'
 						className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[8%] top-[2%] md:top-0'
 					/>
-					<ul>
+					<ul className='relative z-20'>
 						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
 							<img src={code} alt='code' />
 							Финансы и банкинг
 							<Tooltip text='Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег. Безопасная аутентификация для онлайн-банкинга и финансовых сервисов. Управление цифровыми активами и инвестициями с помощью DID' />
 						</li>
-						<li className='flex items-center text-white font-semibold text-[18px] gap-3'>
+						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
 							<img src={code} alt='code' />
-							1M$ per year spent on security
+							Образование и HR
+							<Tooltip text='Выдача верифицируемых дипломов, сертификатов и других учетных данных. Подтверждение квалификации и опыта соискателей при найме на работу. Создание децентрализованных систем репутации и портфолио.' />
 						</li>
-						<li className='flex items-center text-white font-semibold text-[18px] gap-3'>
+						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
 							<img src={code} alt='code' />
-							Formally verified
+							Электронное правительство
+							<Tooltip text='Безопасная аутентификация граждан для доступа к госуслугам. Проведение выборов и голосований с верификацией личности избирателей. Борьба с коррупцией через прозрачные реестры на блокчейне.' />
 						</li>
 					</ul>
 				</div>
