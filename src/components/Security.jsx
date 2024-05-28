@@ -22,9 +22,12 @@ function Security() {
 							className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[8%] top-[2%] md:top-0'
 						/>
 						<ul>
-							<li className='flex items-center text-white font-semibold text-[18px] gap-3'>
+							<li
+								className='flex items-center text-white font-semibold text-[18px] gap-3'
+								title='tooltip'
+							>
 								<img src={code} alt='code' />
-								Multiple audits
+								Финансы и банкинг
 							</li>
 							<li className='flex items-center text-white font-semibold text-[18px] gap-3'>
 								<img src={code} alt='code' />
