@@ -6,7 +6,7 @@ function Footer() {
 	return (
 		<>
 			<Wrapper>
-				<div className='flex flex-col md:flex-row md:items-start items-center md:justify-between justify-center gap-[10px] pt-[100px] h-full pb-[40px] border-b border-[#2F302F]'>
+				<div className='flex flex-col md:flex-row md:items-start items-center md:justify-between justify-center gap-[10px] pt-[100px] h-full pb-[40px]'>
 					<img src={logo} alt='logo' className='cursor-pointer w-[80px]' />
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
@@ -14,7 +14,7 @@ function Footer() {
 								developers
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a href='#' className='text-[#848689]'>
 								Indao (Core)
 							</a>
@@ -23,7 +23,7 @@ function Footer() {
 							<a href='#' className='text-[#848689]'>
 								Docs
 							</a>
-						</li>
+						</li> */}
 					</ul>
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
@@ -31,7 +31,7 @@ function Footer() {
 								ecosystem
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a href='#' className='text-[#848689]'>
 								Explore
 							</a>
@@ -40,7 +40,7 @@ function Footer() {
 							<a href='#' className='text-[#848689]'>
 								Grants
 							</a>
-						</li>
+						</li> */}
 					</ul>
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
@@ -48,7 +48,7 @@ function Footer() {
 								community
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a href='#' className='text-[#848689]'>
 								Governance
 							</a>
@@ -67,7 +67,7 @@ function Footer() {
 							<a href='#' className='text-[#848689]'>
 								Indao(Con)
 							</a>
-						</li>
+						</li> */}
 					</ul>
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
@@ -75,7 +75,7 @@ function Footer() {
 								resources
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a href='#' className='text-[#848689]'>
 								Help Center
 							</a>
@@ -94,39 +94,8 @@ function Footer() {
 							<a href='#' className='text-[#848689]'>
 								Brand Kit
 							</a>
-						</li>
+						</li> */}
 					</ul>
-				</div>
-				<div className='flex flex-col md:flex-row items-center justify-between'>
-					<ul className='flex flex-col md:flex-row items-center gap-[25px] font-semibold text-[#848689] py-[30px]'>
-						<li>
-							<a href='#'>Terms</a>
-						</li>
-						<li>
-							<a href='#'>Privacy</a>
-						</li>
-						<li>
-							<a href='#'>Licenses</a>
-						</li>
-						<li>
-							<a href='#'>Cookie Policy</a>
-						</li>
-						<li>
-							<a href='#'>Preferences</a>
-						</li>
-						<li>
-							<a href='#'>Imprint</a>
-						</li>
-						<li>
-							<a href='#'>Trademark</a>
-						</li>
-						<li>
-							<a href='#'>Disclaimer</a>
-						</li>
-					</ul>
-					<p className='font-semibold text-[#848689]'>
-						©2023–2024 Indao Ecosystem Foundation
-					</p>
 				</div>
 			</Wrapper>
 		</>
