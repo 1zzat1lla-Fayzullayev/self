@@ -24,10 +24,10 @@ function Security() {
 						<ul>
 							<li
 								className='flex items-center text-white font-semibold text-[18px] gap-3'
-								title='Финансы и банкинг'
+								title='Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег Безопасная аутентификация для онлайн-банкинга и финансовых сервисов Управление цифровыми активами и инвестициями с помощью DID'
 							>
 								<img src={code} alt='code' />
-								Multiple audits
+								Финансы и банкинг
 							</li>
 							<li className='flex items-center text-white font-semibold text-[18px] gap-3'>
 								<img src={code} alt='code' />
