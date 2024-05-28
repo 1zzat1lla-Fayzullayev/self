@@ -13,22 +13,22 @@ import Tooltip from '../shared/Tooltip'
 function Security() {
 	return (
 		<Wrapper>
-			<div className='relative flex justify-center flex-col md:flex-row items-start gap-[60px] mt-[150px]'>
-				<div className='flex flex-col mx-[20px] md:mx-0 '>
-					<img src={checkbg} alt='Background' className='z-10' />
+			<div className='relative flex justify-center flex-col md:flex-row items-start mt-[150px]'>
+				<div className='flex flex-col mx-[20px] md:mx-0'>
+					<img src={checkbg} alt='Background' className='z-10 w-full md:max-w-[700px]' />
 					<img
 						src={check}
 						alt='Check'
-						className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[8%] top-[2%] md:top-0 z-20'
+						className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[14%] top-[2%] md:top-[10%] z-20'
 					/>
-					<ul className='relative z-30 flex flex-col md:flex-row'>
+					<ul className='relative z-30 flex flex-col md:flex-row mt-[100px] mb-[50px]'>
 						<div className='flex flex-col gap-[10px] w-full'>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
 								<Tooltip
 									text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег. Безопасная аутентификация для онлайн-банкинга и финансовых сервисов. Управление цифровыми активами и инвестициями с помощью DID.`}
 								>
-									Финансы и банкинг
+									<p className='w-full md:w-[350px]'>Финансы и банкинг</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -36,7 +36,7 @@ function Security() {
 								<Tooltip
 									text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных. Подтверждение квалификации и опыта соискателей при найме на работу. Создание децентрализованных систем репутации и портфолио.`}
 								>
-									Образование и HR
+									<p className='w-full md:w-[350px]'>Образование и HR</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -44,7 +44,7 @@ function Security() {
 								<Tooltip
 									text={`Безопасная аутентификация граждан для доступа к госуслугам. Проведение выборов и голосований с верификацией личности избирателей. Борьба с коррупцией через прозрачные реестры на блокчейне.`}
 								>
-									Электронное правительство
+									<p className='w-full md:w-[350px]'>Электронное правительство</p>
 								</Tooltip>
 							</li>
 						</div>
@@ -54,7 +54,7 @@ function Security() {
 								<Tooltip
 									text={`Отслеживание происхождения и подлинности товаров. Верификация личности участников цепочки поставок. Автоматизация таможенного оформления и сертификации грузов.`}
 								>
-									Цепочки поставок и логистика
+									<p className='w-full md:w-[350px]'>Цепочки поставок и логистика</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -62,7 +62,7 @@ function Security() {
 								<Tooltip
 									text={`Создание надежных реестров прав собственности на базе блокчейна. Упрощение процедур купли-продажи и регистрации недвижимости. Токенизация недвижимости для инвестиций и коллективного владения.`}
 								>
-									Недвижимость и земельные кадастры
+									<p className='w-full md:w-[350px]'>Недвижимость и земельные кадастры</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -70,7 +70,7 @@ function Security() {
 								<Tooltip
 									text={`Верификация личности страхователей для борьбы с мошенничеством. Безопасный обмен данными с андеррайтерами и медучреждениями. Автоматизированная оценка рисков и персонализация страховых продуктов.`}
 								>
-									Страхование
+									<p className='w-full md:w-[350px]'>Страхование</p>
 								</Tooltip>
 							</li>
 						</div>
