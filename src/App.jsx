@@ -7,10 +7,10 @@ import SecondSlider from './components/SecondSlider'
 // import LearnMoreCard from './components/LearnMoreCard'
 import Account from './components/Account'
 import Security from './components/Security'
-import Ecosystem from './components/Ecosystem'
+// import Ecosystem from './components/Ecosystem'
 import Blog from './components/Blog'
 import Governance from './components/Governance'
-import GetApp from './components/GetApp'
+// import GetApp from './components/GetApp'
 import Footer from './components/Footer'
 
 function App() {
@@ -24,10 +24,10 @@ function App() {
 			{/* <LearnMoreCard /> */}
 			<Account />
 			<Security />
-			<Ecosystem />
+			{/* <Ecosystem /> */}
 			<Blog />
 			<Governance />
-			<GetApp />
+			{/* <GetApp /> */}
 			<Footer />
 		</>
 	)
