@@ -11,9 +11,10 @@ import code from '../assets/code.png'
 
 function Tooltip({ text }) {
 	return (
-		<div className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[350px] bg-black text-white text-sm rounded-lg shadow-lg p-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10'>
-			{text}
-		</div>
+		<div
+			className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[350px] bg-black text-white text-sm rounded-lg shadow-lg p-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10'
+			dangerouslySetInnerHTML={{ __html: text }}
+		/>
 	)
 }
 
@@ -32,17 +33,30 @@ function Security() {
 						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
 							<img src={code} alt='code' />
 							Финансы и банкинг
-							<Tooltip text='Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег. Безопасная аутентификация для онлайн-банкинга и финансовых сервисов. Управление цифровыми активами и инвестициями с помощью DID' />
+							<Tooltip
+								text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег.<br /><br />Безопасная аутентификация для онлайн-банкинга и финансовых сервисов.<br /><br />Управление цифровыми активами и инвестициями с помощью DID.`}
+							/>
 						</li>
 						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
 							<img src={code} alt='code' />
 							Образование и HR
-							<Tooltip text='Выдача верифицируемых дипломов, сертификатов и других учетных данных. Подтверждение квалификации и опыта соискателей при найме на работу. Создание децентрализованных систем репутации и портфолио.' />
+							<Tooltip
+								text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных.<br /><br />Подтверждение квалификации и опыта соискателей при найме на работу.<br /><br />Создание децентрализованных систем репутации и портфолио.`}
+							/>
 						</li>
 						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
 							<img src={code} alt='code' />
 							Электронное правительство
-							<Tooltip text='Безопасная аутентификация граждан для доступа к госуслугам. Проведение выборов и голосований с верификацией личности избирателей. Борьба с коррупцией через прозрачные реестры на блокчейне.' />
+							<Tooltip
+								text={`Безопасная аутентификация граждан для доступа к госуслугам.<br /><br />Проведение выборов и голосований с верификацией личности избирателей.<br /><br />Борьба с коррупцией через прозрачные реестры на блокчейне.`}
+							/>
+						</li>
+						<li className='relative group flex items-center text-white font-semibold text-[18px] gap-3'>
+							<img src={code} alt='code' />
+							Цепочки поставок и логистика
+							<Tooltip
+								text={`Отслеживание происхождения и подлинности товаров.<br /><br />Верификация личности участников цепочки поставок.<br /><br />Автоматизация таможенного оформления и сертификации грузов.`}
+							/>
 						</li>
 					</ul>
 				</div>
