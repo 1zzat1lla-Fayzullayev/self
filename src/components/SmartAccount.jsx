@@ -12,16 +12,17 @@ function SmartAccount() {
 						<p className='text-[#97999D] font-semibold text-center md:text-start'>
 							ETHEREUM'S TRANSITION TO SMART ACCOUNTS
 						</p>
-						<h2 className='text-white text-[35px] text-start md:text-start md:text-[60px] font-semibold leading-[48px] md:leading-[60px] mx-[20px] md:mx-0 md:w-[90%] mt-[35px]'>
-							<span className='italic'>Indao</span> envisions a future where every onchain account is a <br />
-							<span className='text-[#12FF80]'>smart account</span>
+						<h2 className='text-white text-[35px] text-start md:text-start md:text-[50px] font-semibold leading-[48px] md:leading-[60px] mx-[20px] md:mx-0 md:w-[90%] mt-[35px]'>
+							<span className='italic'>Наша миссия </span>- стать ведущей
+							платформой децентрализованной идентификации <br />
+							<span className='text-[#12FF80]'></span>
 						</h2>
 						<div className='flex md:items-center mx-[20px] md:mx-0 md:justify-start mt-[10px] md:mt-[70px]'>
 							<a
 								href='#'
 								className={`text-white text-[20px] text-center md:text-start hover:text-[#12FF80] hover:border-b-[2px] border-[#12FF80] pb-[2px]`}
 							>
-								Read our vision & roadmap
+								Ознакомьтесь с нашим видением и дорожной картой
 							</a>
 							<div className='arrow-container hover:brightness-125'>
 								<img
