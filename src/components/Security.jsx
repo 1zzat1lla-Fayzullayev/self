@@ -27,7 +27,7 @@ function Security() {
 								title='tooltip'
 							>
 								<img src={code} alt='code' />
-								Финансы и банкинг
+								Multiple audits
 							</li>
 							<li className='flex items-center text-white font-semibold text-[18px] gap-3'>
 								<img src={code} alt='code' />
