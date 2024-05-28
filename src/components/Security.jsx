@@ -8,21 +8,13 @@ import check from '../assets/check.png'
 import checkbg from '../assets/check-bg.png'
 import rightA from '../assets/right-arrow.png'
 import code from '../assets/code.png'
-
-function Tooltip({ text }) {
-	return (
-		<div
-			className='absolute bottom-[100%] transform mb-3 w-[300px] bg-black text-white text-sm rounded-lg shadow-lg p-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-[999]'
-			dangerouslySetInnerHTML={{ __html: text }}
-		/>
-	)
-}
+import Tooltip from '../shared/Tooltip'
 
 function Security() {
 	return (
 		<Wrapper>
 			<div className='relative flex justify-center flex-col md:flex-row items-start gap-[60px] mt-[150px]'>
-				<div className='flex flex-col mx-[20px] md:mx-0 relative'>
+				<div className='flex flex-col mx-[20px] md:mx-0 '>
 					<img src={checkbg} alt='Background' className='z-10' />
 					<img
 						src={check}
@@ -30,55 +22,61 @@ function Security() {
 						className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[8%] top-[2%] md:top-0 z-20'
 					/>
 					<ul className='relative z-30 flex flex-col md:flex-row'>
-						<div className='flex flex-col gap-[10px]'>
+						<div className='flex flex-col gap-[10px] w-full'>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
-								Финансы и банкинг
 								<Tooltip
-									text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег.<br /><br />Безопасная аутентификация для онлайн-банкинга и финансовых сервисов.<br /><br />Управление цифровыми активами и инвестициями с помощью DID.`}
-								/>
+									text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег. Безопасная аутентификация для онлайн-банкинга и финансовых сервисов. Управление цифровыми активами и инвестициями с помощью DID.`}
+								>
+									Финансы и банкинг
+								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
-								Образование и HR
 								<Tooltip
-									text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных.<br /><br />Подтверждение квалификации и опыта соискателей при найме на работу.<br /><br />Создание децентрализованных систем репутации и портфолио.`}
-								/>
+									text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных. Подтверждение квалификации и опыта соискателей при найме на работу. Создание децентрализованных систем репутации и портфолио.`}
+								>
+									Образование и HR
+								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
-								Электронное правительство
 								<Tooltip
-									text={`Безопасная аутентификация граждан для доступа к госуслугам.<br /><br />Проведение выборов и голосований с верификацией личности избирателей.<br /><br />Борьба с коррупцией через прозрачные реестры на блокчейне.`}
-								/>
+									text={`Безопасная аутентификация граждан для доступа к госуслугам. Проведение выборов и голосований с верификацией личности избирателей. Борьба с коррупцией через прозрачные реестры на блокчейне.`}
+								>
+									Электронное правительство
+								</Tooltip>
 							</li>
 						</div>
-						<div className='flex flex-col gap-[10px]'>
+						<div className='flex flex-col gap-[10px] w-full'>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
-								Цепочки поставок и логистика
 								<Tooltip
-									text={`Отслеживание происхождения и подлинности товаров.<br /><br />Верификация личности участников цепочки поставок.<br /><br />Автоматизация таможенного оформления и сертификации грузов.`}
-								/>
+									text={`Отслеживание происхождения и подлинности товаров. Верификация личности участников цепочки поставок. Автоматизация таможенного оформления и сертификации грузов.`}
+								>
+									Цепочки поставок и логистика
+								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
-								Недвижимость и земельные кадастры
 								<Tooltip
-									text={`Создание надежных реестров прав собственности на базе блокчейна <br /><br />Упрощение процедур купли-продажи и регистрации недвижимости <br /><br />Токенизация недвижимости для инвестиций и коллективного владения`}
-								/>
+									text={`Создание надежных реестров прав собственности на базе блокчейна. Упрощение процедур купли-продажи и регистрации недвижимости. Токенизация недвижимости для инвестиций и коллективного владения.`}
+								>
+									Недвижимость и земельные кадастры
+								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
-								Страхование
 								<Tooltip
-									text={`Верификация личности страхователей для борьбы с мошенничеством <br /><br />Безопасный обмен данными с андеррайтерами и медучреждениями <br /><br />Автоматизированная оценка рисков и персонализация страховых продуктов`}
-								/>
+									text={`Верификация личности страхователей для борьбы с мошенничеством. Безопасный обмен данными с андеррайтерами и медучреждениями. Автоматизированная оценка рисков и персонализация страховых продуктов.`}
+								>
+									Страхование
+								</Tooltip>
 							</li>
 						</div>
 					</ul>
 				</div>
-				<div className='mx-[20px] md:mx-0 md:w-[44%]'>
+				<div className='mx-[20px] md:mx-0 md:w-[50%]'>
 					<p className='text-[#A1A3A7] font-semibold'>SECURITY</p>
 					<h2 className='text-[40px] md:text-[60px] text-white leading-[55px] mt-[30px]'>
 						Indao Smart Accounts are the{' '}
