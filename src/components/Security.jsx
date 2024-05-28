@@ -24,7 +24,7 @@ function Security() {
 						<ul>
 							<li
 								className='flex items-center text-white font-semibold text-[18px] gap-3'
-								title='tooltip'
+								title='Финансы и банкинг'
 							>
 								<img src={code} alt='code' />
 								Multiple audits
