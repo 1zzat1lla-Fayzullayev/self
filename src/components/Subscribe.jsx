@@ -34,12 +34,12 @@ function Subscribe() {
 		>
 			<Wrapper>
 				<div className='flex flex-col items-center justify-center text-start'>
-					<p className='text-[#A0A2A6] font-semibold text-[17px] pt-[50px]'>
+					{/* <p className='text-[#A0A2A6] font-semibold text-[17px] pt-[50px]'>
 						ENTRUSTED TO KEEP YOUR ASSETS INDAO
-					</p>
-					<h2 className='text-white font-semibold text-[35px] md:text-[50px] md:leading-[55px] w-[80%] mt-[15px]'>
-						<span className='italic'>Indao</span> Smart Accounts are battle
-						tested and used more than any other
+					</p> */}
+					<h2 className='text-white font-semibold text-[35px] md:text-[40px] md:leading-[55px] w-[80%] mt-[15px]'>
+						inDAO сотрудничает с ведущими партнерами для построения надежной
+						экосистемы цифровой идентификации.
 					</h2>
 				</div>
 				<ScrollTrigger
