@@ -34,6 +34,10 @@ const secondslider = [
 		title: 'Gnosis Chain',
 	},
 	{
+		img: 'https://s3.eu-west-1.amazonaws.com/polygonid-marketplace-logos-prod/ea8fa220-24ae-40fc-84ea-8b3c210ab41c.png',
+		title: 'GAMER31',
+	},
+	{
 		img: polygonId,
 		title: 'Polygon ID',
 	},
