@@ -1,4 +1,5 @@
 import polygonId from '../assets/PolygonID.png'
+import komet from '../assets/komet.jpg'
 
 const secondslider = [
 	{
@@ -16,6 +17,10 @@ const secondslider = [
 	{
 		img: polygonId,
 		title: 'Polygon ID',
+	},
+	{
+		img: komet,
+		title: 'KOMET',
 	},
 ]
 

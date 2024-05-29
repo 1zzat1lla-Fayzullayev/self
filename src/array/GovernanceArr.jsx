@@ -12,7 +12,7 @@ const governance = [
 	{
 		title: 'learn more',
 		desc: 'Governance Hub',
-		href: 'https://app.gitbook.com/o/2iADhsvChdaBjLq3rqrX',
+		href: 'https://indao.gitbook.io/did-technology',
 	},
 ]
 
