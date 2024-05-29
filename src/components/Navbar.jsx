@@ -41,7 +41,7 @@ function Navbar() {
 								</a>
 							</li>
 						</ul>
-						<button className='bg-[#12FF80] py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block'>
+						<button className='py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block' style={{ background: 'rgb(0 170 255)' }}>
 							Lauch Wallet
 						</button>
 						<div

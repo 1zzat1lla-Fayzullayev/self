@@ -16,7 +16,7 @@ function Blog() {
 						<div className=''>
 							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[65px]'>
 								Преимущества интеграции наших{' '}
-								<span className='text-[#12FF80]'>технологий:</span>
+								<span className='' style={{ color: 'rgb(0 170 255)' }}>технологий:</span>
 							</h2>
 							{/* <button className='bg-[#12FF80] font-semibold text-[18px] px-[20px] py-[10px] rounded-[5px] mt-[80px] text-black'>
 								Read the latest
