@@ -22,7 +22,7 @@ function SecondSlider() {
 								<img
 									src={slide.img}
 									alt={slide.title}
-									className='h-[60px] md:h-[80px] object-cover transition-transform duration-1000 hover:translate-z-[20px]'
+									className='h-[60px] md:h-[80px] object-cover transition-transform duration-1000 hover:translate-z-[20px] rounded-full'
 								/>
 								<p className='text-white font-semibold text-center'>
 									{slide.title}
