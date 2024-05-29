@@ -36,7 +36,7 @@ function Governance() {
 									key={card.title}
 									className='relative card1 flex flex-col border-[1px] rounded-[20px] border-[#303033] hover:border-[#12FF80] max-w-[400px] h-[220px] cursor-pointer w-full shadow-lg bg-[#121312]'
 								>
-									<p className='text-[#A1A3A7] font-semibold mt-[30px] ml-[15px] uppercase'>
+									<p className='text-[#A1A3A7] font-semibold mt-[30px] ml-[15px] uppercase text-[15px]'>
 										{card.title}
 									</p>
 									{/* Inline SVG */}
@@ -58,8 +58,8 @@ function Governance() {
 											/>
 										</svg>
 									</div>
-									<div className='mt-[80px]'>
-										<h2 className='font-semibold text-[30px] ml-[15px] text-white'>
+									<div className='mt-[100px]'>
+										<h2 className='font-semibold text-[25px] ml-[15px] text-white'>
 											{card.desc}
 										</h2>
 									</div>
@@ -69,13 +69,13 @@ function Governance() {
 					</div>
 					<div className='flex justify-center items-center flex-col mt-[70px] gap-[40px]'>
 						<h2 className='text-white text-[25px] font-semibold text-center'>
-							Want to reach the Core Contributors?
+							Хотите связаться с нами?
 						</h2>
 						<button
 							className='py-3 px-6 mb-[40px] font-semibold text-black rounded-[5px]'
 							style={{ background: 'rgb(0 170 255)' }}
 						>
-							Contact us
+							Напишите нам
 						</button>
 					</div>
 				</Wrapper>

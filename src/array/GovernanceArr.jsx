@@ -1,17 +1,17 @@
 const governance = [
 	{
-		title: 'be part of a community',
-		desc: 'INDAO Token',
+		title: 'Стать частью сообщества',
+		desc: 'X (Twitter)',
 		href: 'https://x.com/inDAO_io',
 	},
 	{
-		title: 'join a discussion',
-		desc: 'Latest Proposals',
+		title: 'Вступить в дискуссию',
+		desc: 'Последние голосования',
 		href: 'https://snapshot.org/#/indaonetwork.eth',
 	},
 	{
-		title: 'learn more',
-		desc: 'Governance Hub',
+		title: 'Узнать больше',
+		desc: 'inDAO Gitbook',
 		href: 'https://indao.gitbook.io/did-technology',
 	},
 ]
