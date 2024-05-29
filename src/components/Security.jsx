@@ -13,17 +13,17 @@ import Tooltip from '../shared/Tooltip'
 function Security() {
 	return (
 		<Wrapper>
-			<div className='relative flex justify-center  flex-col md:flex-row items-start mt-[150px]'>
-				<div className='flex flex-col mx-[20px] md:mx-0'>
+			<div className='relative flex justify-center flex-col md:flex-row items-start mt-[150px] gap-[30px]'>
+				<div className='flex flex-col mx-[20px] md:mx-0 w-[50%]'>
 					<img
 						src={checkbg}
 						alt='Background'
-						className='z-10 w-full md:max-w-[700px]'
+						className='z-10 w-full md:max-w-[550px]'
 					/>
 					<img
 						src={check}
 						alt='Check'
-						className='w-[230px] md:w-[390px] absolute left-[20%] md:left-[14%] top-[2%] md:top-[14%] z-20'
+						className='w-[230px] md:w-[300px] absolute left-[20%] md:left-[12%] top-[2%] md:top-[12%] z-20'
 					/>
 					<ul className='relative z-30 flex flex-col md:flex-row mt-[100px] mb-[50px]'>
 						<div className='flex flex-col gap-[10px] w-full'>
@@ -86,7 +86,7 @@ function Security() {
 						</div>
 					</ul>
 				</div>
-				<div className='mx-[20px] md:mx-0 md:w-[50%] mt-[110px]'>
+				<div className='mx-[20px] md:mx-0'>
 					<p className='text-[#A1A3A7] font-semibold'>SECURITY</p>
 					<p className='text-white font-semibold text-[22px] mt-[30px]'>
 						inDAO предлагает решения на базе блокчейна и криптографии, такие как
@@ -96,7 +96,6 @@ function Security() {
 						финансы, государственное управление, цепочки поставок и многие
 						другие.
 					</p>
-				
 				</div>
 			</div>
 		</Wrapper>
