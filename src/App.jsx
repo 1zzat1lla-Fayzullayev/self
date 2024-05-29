@@ -5,7 +5,7 @@ import SmartAccount from './components/SmartAccount'
 import Subscribe from './components/Subscribe'
 import SecondSlider from './components/SecondSlider'
 // import LearnMoreCard from './components/LearnMoreCard';
-import Account from './components/Account'
+// import Account from './components/Account'
 import Security from './components/Security'
 // import Ecosystem from './components/Ecosystem';
 import Blog from './components/Blog'
@@ -22,7 +22,7 @@ function App() {
 			<Subscribe />
 			<SecondSlider />
 			{/* <LearnMoreCard /> */}
-			<Account />
+			{/* <Account /> */}
 			<Security />
 			{/* <Ecosystem /> */}
 			<Blog />

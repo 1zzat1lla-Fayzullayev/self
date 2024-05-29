@@ -46,18 +46,6 @@ function Security() {
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
 								<Tooltip
-									text={`Безопасная аутентификация граждан для доступа к госуслугам. Проведение выборов и голосований с верификацией личности избирателей. Борьба с коррупцией через прозрачные реестры на блокчейне.`}
-								>
-									<p className='w-full md:w-[350px]'>
-										Электронное правительство
-									</p>
-								</Tooltip>
-							</li>
-						</div>
-						<div className='flex flex-col gap-[10px] w-full'>
-							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
-								<img src={code} alt='code' className='z-10' />
-								<Tooltip
 									text={`Отслеживание происхождения и подлинности товаров. Верификация личности участников цепочки поставок. Автоматизация таможенного оформления и сертификации грузов.`}
 								>
 									<p className='w-full md:w-[350px]'>
@@ -65,6 +53,8 @@ function Security() {
 									</p>
 								</Tooltip>
 							</li>
+						</div>
+						<div className='flex flex-col gap-[10px] w-full'>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
 								<img src={code} alt='code' className='z-10' />
 								<Tooltip
