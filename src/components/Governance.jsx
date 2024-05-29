@@ -13,13 +13,16 @@ function Governance() {
 					<div className='flex flex-col md:flex-row gap-[80px] mt-[50px] mx-[20px] md:mx-0'>
 						<h2 className='text-white font-semibold text-[50px] leading-[55px]'>
 							{' '}
-							<span className='' style={{ color: 'rgb(0 170 255)' }}>Indao (DAO)</span> governs the
-							future of Indao
+							<span className='' style={{ color: 'rgb(0 170 255)' }}>
+								Система DAO
+							</span>{' '}
+							управляет будущим inDAO
 						</h2>
-						<p className='font-semibold text-[#A1A3A7] text-[17px]'>
-							Indao is governed by IndaoDAO, a decentralized collective of core
-							contributors, backers, GnosisDAO, users, and ecosystem
-							contributors i.e Indao(Guardians).
+						<p className='font-semibold text-[#A1A3A7] text-[17px] w-full md:w-[50%]'>
+							Уникальная структура управления на основе DAO (децентрализованной
+							автономной организации) обеспечивает прозрачность, инклюзивность и
+							коллективное принятие решений, позволяя всем заинтересованным
+							сторонам активно участвовать в развитии и успехе платформы Indao.
 						</p>
 					</div>
 					<div className='flex flex-col md:flex-row justify-center items-center gap-[15px] mt-[70px] mx-[20px] md:mx-0'>
@@ -62,7 +65,10 @@ function Governance() {
 						<h2 className='text-white text-[25px] font-semibold text-center'>
 							Want to reach the Core Contributors?
 						</h2>
-						<button className='py-3 px-6 mb-[40px] font-semibold text-black rounded-[5px]' style={{ background: 'rgb(0 170 255)' }}>
+						<button
+							className='py-3 px-6 mb-[40px] font-semibold text-black rounded-[5px]'
+							style={{ background: 'rgb(0 170 255)' }}
+						>
 							Contact us
 						</button>
 					</div>
