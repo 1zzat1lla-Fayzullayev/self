@@ -20,19 +20,16 @@ function Hero() {
 
 	return (
 		<>
-			<div className='relative flex justify-center items-center pt-[250px] md:pt-[300px] pb-[200px] md:pb-[100px]'>
+			<div className='relative flex justify-center items-center h-screen'>
 				<div className='absolute top-0 left-0 w-full h-full'>
 					<canvas ref={canvasRef} id='canvas3d' className='w-full h-full' />
 				</div>
-				<h1 className='relative text-[35px] md:text-[60px] text-white w-full md:w-[50%] font-semibold text-center leading-[55px] md:leading-[70px] '>
-					Децентрализованная идентификация для{' '}
-					<span
-						className='text-[rgb(0 170 255)]'
-						style={{ color: 'rgb(0 170 255)' }}
-					>
-						защиты ваших данных
-					</span>{' '}
-				</h1>
+				<div className='relative flex justify-center items-center w-full h-full'>
+					<h1 className='text-[35px] md:text-[60px] text-white w-full md:w-[50%] font-semibold text-center leading-[55px] md:leading-[70px]'>
+						Децентрализованная идентификация для{' '}
+						<span style={{ color: 'rgb(0 170 255)' }}>защиты ваших данных</span>{' '}
+					</h1>
+				</div>
 			</div>
 		</>
 	)
