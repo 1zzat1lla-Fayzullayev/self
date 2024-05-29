@@ -37,7 +37,7 @@ function Subscribe() {
 					{/* <p className='text-[#A0A2A6] font-semibold text-[17px] pt-[50px]'>
 						ENTRUSTED TO KEEP YOUR ASSETS INDAO
 					</p> */}
-					<h2 className='text-white font-semibold text-[35px] md:text-[40px] md:leading-[55px] w-[80%] mt-[15px]'>
+					<h2 className='text-white font-semibold text-[35px] md:text-[40px] md:leading-[55px] w-[80%] mt-[15px] text-center'>
 						inDAO сотрудничает с ведущими партнерами для построения надежной
 						экосистемы цифровой идентификации.
 					</h2>
