@@ -13,7 +13,7 @@ import Tooltip from '../shared/Tooltip'
 function Security() {
 	return (
 		<Wrapper>
-			<div className='relative flex justify-center flex-col md:flex-row items-start mt-[150px]'>
+			<div className='relative flex justify-center  flex-col md:flex-row items-start mt-[150px]'>
 				<div className='flex flex-col mx-[20px] md:mx-0'>
 					<img
 						src={checkbg}
@@ -86,7 +86,7 @@ function Security() {
 						</div>
 					</ul>
 				</div>
-				<div className='mx-[20px] md:mx-0 md:w-[50%]'>
+				<div className='mx-[20px] md:mx-0 md:w-[50%] mt-[110px]'>
 					<p className='text-[#A1A3A7] font-semibold'>SECURITY</p>
 					<p className='text-white font-semibold text-[20px] mt-[30px]'>
 						inDAO предлагает решения на базе блокчейна и криптографии, такие как
@@ -96,21 +96,7 @@ function Security() {
 						финансы, государственное управление, цепочки поставок и многие
 						другие.
 					</p>
-					<div className='flex items-center flex-wrap gap-[30px] mt-[40px]'>
-						<img src={security2} alt='' className='w-[100px]' />
-						<img src={security1} alt='' className='w-[100px]' />
-						<img src={security3} alt='' className='w-[100px]' />
-						<img src={security4} alt='' className='w-[100px]' />
-					</div>
-					<div className='security flex items-center mt-[30px] gap-[30px]'>
-						<button className='bg-[#12FF80] py-3 px-5 rounded-[5px] font-semibold text-[18px]'>
-							View audits
-						</button>
-						<div className='bug flex items-center text-white font-semibold text-[18px]'>
-							<a href='#'>Start bug hunting</a>
-							<img src={rightA} alt='Arrow' className='w-[40px]' />
-						</div>
-					</div>
+				
 				</div>
 			</div>
 		</Wrapper>
