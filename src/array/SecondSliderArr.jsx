@@ -1,3 +1,5 @@
+import polygonId from '../assets/PolygonID.png'
+
 const secondslider = [
 	{
 		img: 'https://dev.reclaimprotocol.org/assets/logo.png',
@@ -30,6 +32,10 @@ const secondslider = [
 	{
 		img: 'https://safe.global/images/Home/NetworkIcons/gnosis-chain.svg',
 		title: 'Gnosis Chain',
+	},
+	{
+		img: polygonId,
+		title: 'Polygon ID',
 	},
 ]
 
