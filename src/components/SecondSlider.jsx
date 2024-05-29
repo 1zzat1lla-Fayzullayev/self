@@ -8,7 +8,7 @@ function SecondSlider() {
 			<Wrapper>
 				<div className='flex flex-col items-center'>
 					<h2 className='text-white font-semibold text-center text-[35px] mt-[50px]'>
-						Available on 14+ networks
+						Partner
 					</h2>
 					<p className='text-[#A1A3A7] font-semibold'>including testnets</p>
 				</div>

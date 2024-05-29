@@ -46,7 +46,7 @@ function Subscribe() {
 					onEnter={() => setCounterOn(true)}
 					onExit={() => setCounterOn(false)}
 				>
-					<div className='flex flex-col md:flex-row justify-center items-center mt-[80px]'>
+					{/* <div className='flex flex-col md:flex-row justify-center items-center mt-[80px]'>
 						<div className={`left-video ${inView ? 'move-left' : ''}`}>
 							<video
 								src='https://safe.global/videos/Home/brackets-left-vp9.webm'
@@ -62,50 +62,7 @@ function Subscribe() {
 								/>
 							</video>
 						</div>
-						<div className={`text-content ${inView ? 'show' : ''}`}>
-							<ul className='flex flex-col md:flex-row items-center gap-[70px]'>
-								<div className='flex flex-col items-center justify-center md:items-start md:justify-start'>
-									<li className='text-[#19FC8B] text-[50px] md:text-[70px] font-semibold text-center'>
-										{counterOn && (
-											<CountUp start={0} end={56} duration={2} delay={0} />
-										)}
-										M
-									</li>
-									<li className='text-[#A0A2A6] font-semibold'>
-										TOTAL TRANSACTIONS
-									</li>
-								</div>
-								<div>
-									<li className='text-[#19FC8B] text-[50px] md:text-[70px] font-semibold text-center'>
-										$
-										{counterOn && (
-											<CountUp start={0} end={100} duration={2} delay={0} />
-										)}
-										B+
-									</li>
-									<li className='text-[#A0A2A6] font-semibold text-center'>
-										TOTAL ASSETS STORED
-									</li>
-								</div>
-								<div>
-									<li className='text-[#19FC8B] text-[50px] md:text-[70px] font-semibold text-center'>
-										{counterOn && (
-											<CountUp
-												start={0}
-												end={8.7}
-												duration={2}
-												delay={0}
-												decimals={1}
-											/>
-										)}
-										M
-									</li>
-									<li className='text-[#A0A2A6] font-semibold text-end'>
-										TOTAL ACCOUNTS DEPLOYED
-									</li>
-								</div>
-							</ul>
-						</div>
+
 						<div className={`right-video ${inView ? 'move-right' : ''}`}>
 							<video
 								src='https://safe.global/videos/Home/brackets-right-vp9.webm'
@@ -121,7 +78,7 @@ function Subscribe() {
 								/>
 							</video>
 						</div>
-					</div>
+					</div> */}
 				</ScrollTrigger>
 			</Wrapper>
 		</div>
