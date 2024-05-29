@@ -16,7 +16,7 @@ function Governance() {
 							<span className='' style={{ color: 'rgb(0 170 255)' }}>
 								Система DAO
 							</span>{' '}
-							управляет будущим inDAO
+							управляет <br /> будущим inDAO
 						</h2>
 						<p className='font-semibold text-[#A1A3A7] text-[17px] w-full md:w-[50%]'>
 							Уникальная структура управления на основе DAO (децентрализованной
