@@ -6,19 +6,22 @@ import social from '../assets/social.svg'
 const blog = [
 	{
 		img: restaking,
-		title: 'Staking & Restaking',
+		title:
+			'Высокий уровень безопасности и приватности данных благодаря криптографии и децентрализации.',
 	},
 	{
 		img: payments,
-		title: 'Payments & Wallets',
+		title:
+			'Повышение эффективности процессов и снижение затрат за счет автоматизации',
 	},
 	{
 		img: institutions,
-		title: 'Institutions',
+		title: 'Соответствие нормативным требованиям и отраслевым стандартам. ',
 	},
 	{
 		img: social,
-		title: 'Social & Identity',
+		title:
+			'Повышение доверия между участниками экосистемы благодаря неизменности данных в блокчейне.',
 	},
 ]
 

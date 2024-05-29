@@ -61,7 +61,7 @@ function Blog() {
 						{blog.map(card => (
 							<div className='relative card1 flex flex-col border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] w-[300px] h-[270px] cursor-pointer bg-[#121312] shadow-lg p-4'>
 								{/* Inline SVG */}
-								<div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
+								{/* <div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
 									<svg
 										width='35'
 										height='35'
@@ -78,16 +78,16 @@ function Blog() {
 											strokeLinejoin='round'
 										/>
 									</svg>
-								</div>
+								</div> */}
 
 								<div>
 									<img src={card.img} alt='404' className='w-[70px]' />
 								</div>
-								<div className='flex items-center mt-[40px]'>
+								{/* <div className='flex items-center mt-[40px]'>
 									<img src={msg} alt='msg' />
 									<p className='uppercase text-white font-semibold'>use case</p>
-								</div>
-								<h2 className='text-[28px] text-white font-semibold'>
+								</div> */}
+								<h2 className='text-[18px] text-white font-semibold m-[4px]'>
 									{card.title}
 								</h2>
 							</div>
