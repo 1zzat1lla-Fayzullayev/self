@@ -88,7 +88,7 @@ function Security() {
 				</div>
 				<div className='mx-[20px] md:mx-0 md:w-[50%] mt-[110px]'>
 					<p className='text-[#A1A3A7] font-semibold'>SECURITY</p>
-					<p className='text-white font-semibold text-[20px] mt-[30px]'>
+					<p className='text-white font-semibold text-[22px] mt-[30px]'>
 						inDAO предлагает решения на базе блокчейна и криптографии, такие как
 						децентрализованные идентификаторы (DID) и доказательства с нулевым
 						разглашением (zkproof), для безопасной интеграции
