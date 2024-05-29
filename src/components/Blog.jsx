@@ -14,14 +14,13 @@ function Blog() {
 					</p>
 					<div className='flex flex-col md:flex-row justify-between items-center mx-[20px] md:mx-0 gap-[40px]'>
 						<div className=''>
-							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[55px]'>
-								Follow as Indao embeds{' '}
-								<span className='text-[#12FF80]'>ownership</span> across
-								use-cases
+							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[65px]'>
+								Преимущества интеграции наших{' '}
+								<span className='text-[#12FF80]'>технологий:</span>
 							</h2>
-							<button className='bg-[#12FF80] font-semibold text-[18px] px-[20px] py-[10px] rounded-[5px] mt-[80px] text-black'>
+							{/* <button className='bg-[#12FF80] font-semibold text-[18px] px-[20px] py-[10px] rounded-[5px] mt-[80px] text-black'>
 								Read the latest
-							</button>
+							</button> */}
 						</div>
 						<div>
 							<div className='relative card1 flex flex-col border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] w-[350px] md:w-[580px] cursor-pointer bg-[#121312] shadow-lg p-4'>
