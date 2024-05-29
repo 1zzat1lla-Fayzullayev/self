@@ -21,7 +21,7 @@ function Navbar() {
 				<Wrapper>
 					<div className='flex items-center justify-between'>
 						<div>
-							<img src={logo} alt='logo' className='w-[80px]' />
+							<img src={logo} alt='logo' className='w-[70px]' />
 						</div>
 						<ul className='md:flex items-center text-[#9DA0A2] font-semibold gap-[25px] hidden'>
 							<li>

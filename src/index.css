@@ -14,7 +14,6 @@ body {
 
 .subscribe-container {
 	position: relative;
-	overflow: hidden;
 	background: linear-gradient(
 			to bottom,
 			rgba(19, 20, 19, 1) 0%,

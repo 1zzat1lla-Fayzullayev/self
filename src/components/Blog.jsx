@@ -26,7 +26,7 @@ function Blog() {
 							<div className='relative card1 flex flex-col border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] w-[350px] md:w-[580px] cursor-pointer bg-[#121312] shadow-lg p-4'>
 								{/* Inline SVG */}
 								<div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
-									<svg
+									{/* <svg
 										width='35'
 										height='35'
 										viewBox='0 0 24 24'
@@ -41,19 +41,23 @@ function Blog() {
 											strokeLinecap='round'
 											strokeLinejoin='round'
 										/>
-									</svg>
+									</svg> */}
 								</div>
 
 								<div>
 									<img src={ai} alt='404' className='w-[200px]' />
 								</div>
-								<div className='flex items-center mt-[40px]'>
+								{/* <div className='flex items-center mt-[40px]'>
 									<img src={msg} alt='msg' />
 									<p className='uppercase text-white font-semibold'>use case</p>
-								</div>
+								</div> */}
 								<h2 className='uppercase text-[50px] text-white font-semibold'>
-									ai
+									did
 								</h2>
+								<p className='text-white font-semibold ml-[3px] text-[17px]'>
+									DID: децентрализованная, криптографически защищенная цифровая
+									идентификация.
+								</p>
 							</div>
 						</div>
 					</div>

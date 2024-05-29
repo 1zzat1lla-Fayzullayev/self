@@ -7,7 +7,7 @@ function Footer() {
 		<>
 			<Wrapper>
 				<div className='flex flex-col md:flex-row md:items-start items-center md:justify-between justify-center gap-[10px] pt-[100px] h-full pb-[40px]'>
-					<img src={logo} alt='logo' className='cursor-pointer w-[80px]' />
+					<img src={logo} alt='logo' className='cursor-pointer w-[70px]' />
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
 							<a href='#' className='uppercase text-white font-semibold'>
