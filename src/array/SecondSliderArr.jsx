@@ -1,11 +1,11 @@
 const secondslider = [
 	{
 		img: 'https://dev.reclaimprotocol.org/assets/logo.png',
-		title: 'Polygon zkevm',
+		title: 'Reclaim',
 	},
 	{
 		img: 'https://play-lh.googleusercontent.com/FVah0jSyBDuGcgzFxDiVirK-mRQRBT3OhYoSO07Y-r5OHumsD6aOOH6b6abov4866VY',
-		title: 'Celo',
+		title: 'Verida',
 	},
 	{
 		img: 'https://safe.global/images/Home/NetworkIcons/optimism.svg',
