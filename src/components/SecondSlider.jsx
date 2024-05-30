@@ -1,20 +1,25 @@
 import React from 'react'
 import secondslider from '../array/SecondSliderArr'
 import Wrapper from '../layout/Wrapper'
+import { useTranslation } from 'react-i18next'
 
 function SecondSlider() {
+	const { t } = useTranslation()
+
 	return (
 		<>
 			<Wrapper>
 				<div className='flex flex-col items-center'>
 					<h2 className='text-white font-semibold text-center text-[35px] mt-[50px]'>
-						Partners
+						{t('secondslider.partners')}
 					</h2>
-					<p className='text-[#A1A3A7] font-semibold'>including testnets</p>
+					<p className='text-[#A1A3A7] font-semibold'>
+						{t('secondslider.testnets')}
+					</p>
 				</div>
 				<div className='relative overflow-hidden h-[200px] w-full grid place-items-center mt-[20px]'>
 					<div className='image-slider-track flex animate-playRight'>
-						{secondslider.concat(secondslider).map((slide, index) => (
+						{secondslider(secondslider).map((slide, index) => (
 							<div
 								key={index}
 								className='h-[150px] w-[200px] grid place-items-center p-[15px] perspective-[100px] text-white'

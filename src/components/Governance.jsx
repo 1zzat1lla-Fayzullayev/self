@@ -1,28 +1,28 @@
 import React from 'react'
 import Wrapper from '../layout/Wrapper'
 import governance from '../array/GovernanceArr'
+import { useTranslation } from 'react-i18next'
 
 function Governance() {
+	const { t } = useTranslation()
 	return (
 		<>
 			<div className='governance-container mt-[100px]'>
 				<Wrapper>
 					<p className='uppercase font-semibold text-[#A1A3A7] m-[20px] md:m-0'>
-						governance
+						{t('governancee.governance')}
 					</p>
 					<div className='flex flex-col md:flex-row gap-[80px] mt-[50px] mx-[20px] md:mx-0'>
 						<h2 className='text-white font-semibold text-[50px] leading-[55px]'>
 							{' '}
-							<span className='' style={{ color: 'rgb(0 170 255)' }}>
-								Система DAO
+							{/* <span className='' style={{ color: 'rgb(0 170 255)' }}>
+								
 							</span>{' '}
-							управляет <br /> будущим inDAO
+							управляет <br /> будущим inDAO */}
+							{t('governancee.h2')}
 						</h2>
 						<p className='font-semibold text-[#A1A3A7] text-[17px] w-full md:w-[50%]'>
-							Уникальная структура управления на основе DAO (децентрализованной
-							автономной организации) обеспечивает прозрачность, инклюзивность и
-							коллективное принятие решений, позволяя всем заинтересованным
-							сторонам активно участвовать в развитии и успехе платформы Indao.
+							{t('governancee.p')}
 						</p>
 					</div>
 					<div className='flex flex-col md:flex-row justify-center items-center gap-[15px] mt-[70px] mx-[20px] md:mx-0'>
@@ -69,13 +69,13 @@ function Governance() {
 					</div>
 					<div className='flex justify-center items-center flex-col mt-[70px] gap-[40px]'>
 						<h2 className='text-white text-[25px] font-semibold text-center'>
-							Хотите связаться с нами?
+							{t('governancee.a')}
 						</h2>
 						<button
 							className='py-3 px-6 mb-[40px] font-semibold text-black rounded-[5px]'
 							style={{ background: 'rgb(0 170 255)' }}
 						>
-							Напишите нам
+							{t('governancee.button')}
 						</button>
 					</div>
 				</Wrapper>

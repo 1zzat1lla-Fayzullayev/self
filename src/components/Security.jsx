@@ -4,13 +4,15 @@ import security1 from '../assets/security1.png'
 import security2 from '../assets/security2.png'
 import security3 from '../assets/security3.png'
 import security4 from '../assets/security4.png'
-import check from '../assets/check.png'
+import check from '../assets/check_bg.png'
 import checkbg from '../assets/check-bg.png'
 import rightA from '../assets/right-arrow.png'
 import code from '../assets/code.png'
 import Tooltip from '../shared/Tooltip'
+import { useTranslation } from 'react-i18next'
 
 function Security() {
+	const { t } = useTranslation()
 	return (
 		<Wrapper>
 			<div className='relative flex justify-center flex-col md:flex-row items-start mt-[150px] md:gap-[30px]'>
@@ -23,7 +25,7 @@ function Security() {
 					<img
 						src={check}
 						alt='Check'
-						className='w-[230px] md:w-[350px] absolute left-[20%] md:left-[10%] top-[2%] md:top-[7%] z-20'
+						className='w-[230px] md:w-[550px] absolute left-[20%] md:left-[10%] top-[2%] md:top-[7%] z-20'
 					/>
 					<ul className='relative z-30 flex flex-col md:flex-row mt-[100px] mb-[50px]'>
 						<div className='flex flex-col gap-[10px] w-full'>
@@ -32,7 +34,7 @@ function Security() {
 								<Tooltip
 									text={`Верификация личности клиентов для борьбы с мошенничеством и отмыванием денег. Безопасная аутентификация для онлайн-банкинга и финансовых сервисов. Управление цифровыми активами и инвестициями с помощью DID.`}
 								>
-									<p className='w-full md:w-[350px]'>Финансы и банкинг</p>
+									<p className='w-full md:w-[350px]'>{t('security.finance')}</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -40,7 +42,9 @@ function Security() {
 								<Tooltip
 									text={`Выдача верифицируемых дипломов, сертификатов и других учетных данных. Подтверждение квалификации и опыта соискателей при найме на работу. Создание децентрализованных систем репутации и портфолио.`}
 								>
-									<p className='w-full md:w-[350px]'>Образование и HR</p>
+									<p className='w-full md:w-[350px]'>
+										{t('security.education')}
+									</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -48,9 +52,7 @@ function Security() {
 								<Tooltip
 									text={`Отслеживание происхождения и подлинности товаров. Верификация личности участников цепочки поставок. Автоматизация таможенного оформления и сертификации грузов.`}
 								>
-									<p className='w-full md:w-[350px]'>
-										Цепочки поставок и логистика
-									</p>
+									<p className='w-full md:w-[350px]'>{t('security.supply')}</p>
 								</Tooltip>
 							</li>
 						</div>
@@ -60,9 +62,7 @@ function Security() {
 								<Tooltip
 									text={`Создание надежных реестров прав собственности на базе блокчейна. Упрощение процедур купли-продажи и регистрации недвижимости. Токенизация недвижимости для инвестиций и коллективного владения.`}
 								>
-									<p className='w-full md:w-[350px]'>
-										Недвижимость и земельные кадастры
-									</p>
+									<p className='w-full md:w-[350px]'>{t('security.estete')}</p>
 								</Tooltip>
 							</li>
 							<li className='group flex items-center text-white font-semibold text-[18px] gap-3 cursor-pointer'>
@@ -70,21 +70,20 @@ function Security() {
 								<Tooltip
 									text={`Верификация личности страхователей для борьбы с мошенничеством. Безопасный обмен данными с андеррайтерами и медучреждениями. Автоматизированная оценка рисков и персонализация страховых продуктов.`}
 								>
-									<p className='w-full md:w-[350px]'>Страхование</p>
+									<p className='w-full md:w-[350px]'>
+										{t('security.insurance')}
+									</p>
 								</Tooltip>
 							</li>
 						</div>
 					</ul>
 				</div>
 				<div className='mx-[20px] md:mx-0 mt-[80px]'>
-					<p className='text-[#A1A3A7] font-semibold'>SECURITY</p>
+					<p className='text-[#A1A3A7] font-semibold'>
+						{t('security.security_h2')}
+					</p>
 					<p className='text-white font-semibold text-[19px] md:text-[22px] mt-[30px]'>
-						inDAO предлагает решения на базе блокчейна и криптографии, такие как
-						децентрализованные идентификаторы (DID) и доказательства с нулевым
-						разглашением (zkproof), для безопасной интеграции
-						блокчейн-технологий в различные отрасли, включая здравоохранение,
-						финансы, государственное управление, цепочки поставок и многие
-						другие.
+						{t('security.security_p')}
 					</p>
 				</div>
 			</div>

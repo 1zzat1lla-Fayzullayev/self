@@ -1,8 +1,10 @@
 import React from 'react'
 import logo from '../assets/logo1.jpg'
 import Wrapper from '../layout/Wrapper'
+import { useTranslation } from 'react-i18next'
 
 function Footer() {
+	const { t } = useTranslation()
 	return (
 		<>
 			<Wrapper>
@@ -44,7 +46,7 @@ function Footer() {
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
 							<a href='#' className='uppercase text-white font-semibold'>
-								community
+								{t('footer.community')}
 							</a>
 						</li>
 						<li>
@@ -53,7 +55,7 @@ function Footer() {
 								target='_blank'
 								className='text-[#848689]'
 							>
-								X (Twitter)
+								{t('footer.twiter')}
 							</a>
 						</li>
 						<li>
@@ -62,14 +64,14 @@ function Footer() {
 								target='_blank'
 								className='text-[#848689]'
 							>
-								Snapshot
+								{t('footer.snapshot')}
 							</a>
 						</li>
 					</ul>
 					<ul className='flex flex-col items-center md:items-start gap-3 font-semibold'>
 						<li>
 							<a href='#' className='uppercase text-white font-semibold'>
-								resources
+								{t('footer.resources')}
 							</a>
 						</li>
 						<li>
@@ -78,7 +80,7 @@ function Footer() {
 								target='_blank'
 								className='text-[#848689]'
 							>
-								Gitbook
+								{t('footer.gitbook')}
 							</a>
 						</li>
 					</ul>
