@@ -33,9 +33,6 @@ function Blog() {
 		<>
 			<div className='blog-container w-full h-full mt-[180px]'>
 				<Wrapper>
-					<p className='uppercase text-[#A1A3A7] font-semibold m-[20px] md:m-0'>
-						{t('blog.blog')}
-					</p>
 					<div className='flex flex-col md:flex-row justify-between items-center mx-[20px] md:mx-0 gap-[40px]'>
 						<div>
 							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[65px]'>

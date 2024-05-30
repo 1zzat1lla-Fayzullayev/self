@@ -13,9 +13,6 @@ function SecondSlider() {
 					<h2 className='text-white font-semibold text-center text-[35px] mt-[50px]'>
 						{t('secondslider.partners')}
 					</h2>
-					<p className='text-[#A1A3A7] font-semibold'>
-						{t('secondslider.testnets')}
-					</p>
 				</div>
 				<div className='relative overflow-hidden h-[200px] w-full grid place-items-center mt-[20px]'>
 					<div className='image-slider-track flex animate-playRight'>

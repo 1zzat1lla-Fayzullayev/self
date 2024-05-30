@@ -27,9 +27,6 @@ function Governance() {
 		<>
 			<div className='governance-container mt-[100px]'>
 				<Wrapper>
-					<p className='uppercase font-semibold text-[#A1A3A7] m-[20px] md:m-0'>
-						{t('governancee.governance')}
-					</p>
 					<div className='flex flex-col md:flex-row gap-[80px] mt-[50px] mx-[20px] md:mx-0'>
 						<h2 className='text-white font-semibold text-[50px] leading-[55px]'>
 							<span style={{ color: 'rgb(0 170 255)' }}>

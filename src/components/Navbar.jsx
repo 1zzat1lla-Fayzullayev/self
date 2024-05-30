@@ -3,6 +3,8 @@ import logo from '../assets/logo1.jpg'
 import Wrapper from '../layout/Wrapper'
 import MobNavbar from '../shared/MobNavbar'
 import { useTranslation } from 'react-i18next'
+import english from '../assets/english.png'
+import russian from '../assets/russian.png'
 
 function Navbar({ changeLang }) {
 	const [mobNavbar, setMobNavbar] = useState(false)
@@ -13,9 +15,8 @@ function Navbar({ changeLang }) {
 		document.body.classList.toggle('overflow-hidden')
 	}
 
-	const toggleLanguage = () => {
-		const newLang = i18n.language === 'eng' ? 'ru' : 'eng'
-		changeLang(newLang)
+	const toggleLanguage = lang => {
+		changeLang(lang)
 	}
 
 	return (
@@ -31,7 +32,7 @@ function Navbar({ changeLang }) {
 						<div>
 							<img src={logo} alt='logo' className='w-[50px] md:w-[70px]' />
 						</div>
-						<ul className='md:flex items-center text-[#9DA0A2] font-semibold gap-[25px] hidden'>
+						<ul className='md:flex items-center ml-[80px] text-[#9DA0A2] font-semibold gap-[25px] hidden'>
 							<li>
 								<a href='#' className='hover:text-white'>
 									{t('navbar.indao')}
@@ -53,15 +54,21 @@ function Navbar({ changeLang }) {
 								</a>
 							</li>
 						</ul>
-						<div className='flex items-center gap-5'>
-							<select
-								onChange={toggleLanguage}
-								className='appearance-none bg-transparent border border-gray-300 text-gray-700 py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-gray-500'
-							>
-								<option value='eng'>English</option>
-								<option value='ru'>Russian</option>
-							</select>
 
+						<div className='flex items-center gap-5'>
+							<div className='custom-select'>
+								{/* <select
+									onChange={e => toggleLanguage(e.target.value)}
+									className='appearance-none bg-transparent border border-gray-300 text-gray-700 py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-gray-500'
+								>
+									<option value='ru' data-image={russian}>
+										RUS
+									</option>
+									<option value='eng' data-image={english}>
+										ENG
+									</option>
+								</select> */}
+							</div>
 							<button
 								className='py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block'
 								style={{ background: 'rgb(0 170 255)' }}

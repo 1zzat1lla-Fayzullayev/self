@@ -25,7 +25,7 @@ function Security() {
 					<img
 						src={check}
 						alt='Check'
-						className='w-[230px] md:w-[550px] absolute left-[20%] md:left-[10%] top-[2%] md:top-[7%] z-20'
+						className='w-[430px] md:w-[550px] absolute left-[20%] md:left-[10%] top-[2%] md:top-[7%] z-20'
 					/>
 					<ul className='relative z-30 flex flex-col md:flex-row mt-[100px] mb-[50px]'>
 						<div className='flex flex-col gap-[10px] w-full'>
@@ -79,9 +79,6 @@ function Security() {
 					</ul>
 				</div>
 				<div className='mx-[20px] md:mx-0 mt-[80px]'>
-					<p className='text-[#A1A3A7] font-semibold'>
-						{t('security.security_h2')}
-					</p>
 					<p className='text-white font-semibold text-[19px] md:text-[22px] mt-[30px]'>
 						{t('security.security_p')}
 					</p>
