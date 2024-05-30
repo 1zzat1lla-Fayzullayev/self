@@ -14,7 +14,11 @@ function Hero() {
 				</div>
 				<div className='relative flex justify-center items-center w-full h-full'>
 					<h1 className='text-[35px] md:text-[60px] text-white w-full md:w-[50%] font-semibold text-center leading-[55px] md:leading-[70px]'>
-						{t('hero.h2')}
+						{t('hero.h2')}{' '}
+						<span style={{ color: 'rgb(0 170 255)' }}>
+							{' '}
+							{t('hero.coloredh2')}
+						</span>
 					</h1>
 				</div>
 			</div>

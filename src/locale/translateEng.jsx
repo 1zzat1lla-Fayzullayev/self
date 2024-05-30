@@ -6,7 +6,8 @@ const translateEng = {
 		button: 'Lauch Wallet',
 	},
 	hero: {
-		h2: 'Decentralized identity to protect your data',
+		h2: 'Decentralized identity to',
+		coloredh2: 'protect your data',
 	},
 	smartaccount: {
 		h2: `We're on a mission to become the leading decentralized identity platform!`,
@@ -35,7 +36,8 @@ const translateEng = {
 	},
 	blog: {
 		blog: 'BLOG',
-		h2: 'Benefits of integrating our technologies:',
+		h2: 'Benefits of integrating our',
+		coloredh2: 'technologies:',
 		did: 'did',
 		did_p:
 			'DID: decentralized, cryptographically secured digital identification.',
@@ -50,7 +52,8 @@ const translateEng = {
 	},
 	governancee: {
 		governance: 'governance',
-		h2: 'The DAO system is the future of inDAO.',
+		h2: 'system is the future of inDAO.',
+		coloredh2: 'The DAO',
 		p: 'The unique governance structure based on the DAO (Decentralized Autonomous Organization) ensures transparency, inclusivity, and collective decision-making, allowing all stakeholders to actively participate in the development and success of the Indao platform.',
 		a: 'Want to get in touch with us?',
 		button: 'Write to us',

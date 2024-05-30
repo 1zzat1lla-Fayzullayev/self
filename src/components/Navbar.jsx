@@ -53,16 +53,23 @@ function Navbar({ changeLang }) {
 								</a>
 							</li>
 						</ul>
-						<select onChange={toggleLanguage}>
-							<option value='eng'>English</option>
-							<option value='ru'>Russian</option>
-						</select>
-						<button
-							className='py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block'
-							style={{ background: 'rgb(0 170 255)' }}
-						>
-							{t('navbar.button')}
-						</button>
+						<div className='flex items-center gap-5'>
+							<select
+								onChange={toggleLanguage}
+								className='appearance-none bg-transparent border border-gray-300 text-gray-700 py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-gray-500'
+							>
+								<option value='eng'>English</option>
+								<option value='ru'>Russian</option>
+							</select>
+
+							<button
+								className='py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block'
+								style={{ background: 'rgb(0 170 255)' }}
+							>
+								{t('navbar.button')}
+							</button>
+						</div>
+
 						<div
 							className='flex flex-col gap-[6px] cursor-pointer md:hidden'
 							onClick={handleShowMobileNavbar}

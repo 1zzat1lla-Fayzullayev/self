@@ -13,19 +13,19 @@ function Blog() {
 	const blog = [
 		{
 			img: restaking,
-			title: t("blog.restaking"),
+			title: t('blog.restaking'),
 		},
 		{
 			img: payments,
-			title: t("blog.payments"),
+			title: t('blog.payments'),
 		},
 		{
 			img: institutions,
-			title: t("blog.institutions"),
+			title: t('blog.institutions'),
 		},
 		{
 			img: social,
-			title: t("blog.social"),
+			title: t('blog.social'),
 		},
 	]
 
@@ -39,7 +39,10 @@ function Blog() {
 					<div className='flex flex-col md:flex-row justify-between items-center mx-[20px] md:mx-0 gap-[40px]'>
 						<div>
 							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[65px]'>
-								{t('blog.h2')}
+								{t('blog.h2')}{' '}
+								<span style={{ color: 'rgb(0 170 255)' }}>
+									{t('blog.coloredh2')}
+								</span>
 							</h2>
 						</div>
 						<div>
