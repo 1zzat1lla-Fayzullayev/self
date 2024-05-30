@@ -30,7 +30,11 @@ function Navbar() {
 								</a>
 							</li>
 							<li>
-								<a href='#' className='hover:text-white'>
+								<a
+									href='https://drive.google.com/file/d/1wmfdtIGPaN9uJBI1DHqN903tP9c_aTG2/view'
+									target='_blank'
+									className='hover:text-white'
+								>
 									Reclaim
 								</a>
 							</li>
@@ -41,7 +45,10 @@ function Navbar() {
 								</a>
 							</li>
 						</ul>
-						<button className='py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block' style={{ background: 'rgb(0 170 255)' }}>
+						<button
+							className='py-[4px] px-[12px] font-semibold rounded-[5px] hidden md:block'
+							style={{ background: 'rgb(0 170 255)' }}
+						>
 							Lauch Wallet
 						</button>
 						<div

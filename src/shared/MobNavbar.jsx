@@ -12,7 +12,11 @@ function MobNavbar({ showMobile }) {
 							</a>
 						</li>
 						<li>
-							<a href='#' className='hover:text-white'>
+							<a
+								href='https://drive.google.com/file/d/1wmfdtIGPaN9uJBI1DHqN903tP9c_aTG2/view'
+								target='_blank'
+								className='hover:text-white'
+							>
 								Reclaim
 							</a>
 						</li>
