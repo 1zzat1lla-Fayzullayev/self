@@ -6,17 +6,17 @@ import { useTranslation } from 'react-i18next'
 
 function Navbar({ changeLang }) {
 	const [mobNavbar, setMobNavbar] = useState(false)
+	const { t, i18n } = useTranslation()
 
 	const handleShowMobileNavbar = () => {
 		setMobNavbar(!mobNavbar)
 		document.body.classList.toggle('overflow-hidden')
 	}
 
-	const changeLangHandler = e => {
-		changeLang(e.target.value)
+	const toggleLanguage = () => {
+		const newLang = i18n.language === 'eng' ? 'ru' : 'eng'
+		changeLang(newLang)
 	}
-
-	const { t } = useTranslation()
 
 	return (
 		<>
@@ -53,7 +53,7 @@ function Navbar({ changeLang }) {
 								</a>
 							</li>
 						</ul>
-						<select onChange={changeLangHandler}>
+						<select onChange={toggleLanguage}>
 							<option value='eng'>English</option>
 							<option value='ru'>Russian</option>
 						</select>

@@ -1,96 +1,74 @@
 import React from 'react'
 import Wrapper from '../layout/Wrapper'
 import ai from '../assets/ai-big-icon.svg'
-import msg from '../assets/msg.png'
-import blog from '../array/BlogArr'
+import restaking from '../assets/restaking.svg' // Import restaking image
+import payments from '../assets/payments.svg' // Import payments image
+import institutions from '../assets/institutions.svg' // Import institutions image
+import social from '../assets/social.svg' // Import social image
+import { useTranslation } from 'react-i18next'
 
 function Blog() {
+	const { t } = useTranslation()
+
+	const blog = [
+		{
+			img: restaking,
+			title: t("blog.restaking"),
+		},
+		{
+			img: payments,
+			title: t("blog.payments"),
+		},
+		{
+			img: institutions,
+			title: t("blog.institutions"),
+		},
+		{
+			img: social,
+			title: t("blog.social"),
+		},
+	]
+
 	return (
 		<>
 			<div className='blog-container w-full h-full mt-[180px]'>
 				<Wrapper>
 					<p className='uppercase text-[#A1A3A7] font-semibold m-[20px] md:m-0'>
-						blog
+						{t('blog.blog')}
 					</p>
 					<div className='flex flex-col md:flex-row justify-between items-center mx-[20px] md:mx-0 gap-[40px]'>
-						<div className=''>
+						<div>
 							<h2 className='text-white font-semibold text-[30px] md:text-[50px] leading-[65px]'>
-								Преимущества интеграции наших{' '}
-								<span className='' style={{ color: 'rgb(0 170 255)' }}>технологий:</span>
+								{t('blog.h2')}
 							</h2>
-							{/* <button className='bg-[#12FF80] font-semibold text-[18px] px-[20px] py-[10px] rounded-[5px] mt-[80px] text-black'>
-								Read the latest
-							</button> */}
 						</div>
 						<div>
 							<div className='relative card1 flex flex-col border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] w-[350px] md:w-[580px] cursor-pointer bg-[#121312] shadow-lg p-4'>
-								{/* Inline SVG */}
-								<div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
-									{/* <svg
-										width='35'
-										height='35'
-										viewBox='0 0 24 24'
-										fill='none'
-										xmlns='http://www.w3.org/2000/svg'
-										className='text-white arrow'
-									>
-										<path
-											d='M5 12h14M12 5l7 7-7 7'
-											stroke='currentColor'
-											strokeWidth='1.5'
-											strokeLinecap='round'
-											strokeLinejoin='round'
-										/>
-									</svg> */}
-								</div>
-
 								<div>
-									<img src={ai} alt='404' className='w-[200px]' />
+									<img src={ai} alt='AI' className='w-[200px]' />
 								</div>
-								{/* <div className='flex items-center mt-[40px]'>
-									<img src={msg} alt='msg' />
-									<p className='uppercase text-white font-semibold'>use case</p>
-								</div> */}
 								<h2 className='uppercase text-[50px] text-white font-semibold'>
-									did
+									{t('blog.did')}
 								</h2>
 								<p className='text-white font-semibold ml-[3px] text-[17px]'>
-									DID: децентрализованная, криптографически защищенная цифровая
-									идентификация.
+									{t('blog.did_p')}
 								</p>
 							</div>
 						</div>
 					</div>
 					<div className='flex flex-col md:flex-row justify-center items-center gap-[10px] mt-[100px]'>
-						{blog.map(card => (
-							<div className='relative card1 flex flex-col border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] w-[300px] h-[270px] cursor-pointer bg-[#121312] shadow-lg p-4'>
-								{/* Inline SVG */}
-								{/* <div className='w-[30px] arrow absolute right-5 top-4 transform transition-all ease-in rotate-[320deg]'>
-									<svg
-										width='35'
-										height='35'
-										viewBox='0 0 24 24'
-										fill='none'
-										xmlns='http://www.w3.org/2000/svg'
-										className='text-white arrow'
-									>
-										<path
-											d='M5 12h14M12 5l7 7-7 7'
-											stroke='currentColor'
-											strokeWidth='1.5'
-											strokeLinecap='round'
-											strokeLinejoin='round'
-										/>
-									</svg>
-								</div> */}
-
+						{blog.map((card, index) => (
+							<div
+								key={index}
+								className='relative card1 flex flex-col border-[2px] rounded-[20px] border-[#303033] hover:border-[#12FF80] w-[300px] h-[270px] cursor-pointer bg-[#121312] shadow-lg p-4'
+							>
 								<div>
-									<img src={card.img} alt='404' className='w-[70px]' />
+									<img
+										src={card.img}
+										alt={`Image ${index}`}
+										className='w-[70px]'
+									/>
 								</div>
-								{/* <div className='flex items-center mt-[40px]'>
-									<img src={msg} alt='msg' />
-									<p className='uppercase text-white font-semibold'>use case</p>
-								</div> */}
 								<h2 className='text-[18px] text-white font-semibold m-[4px]'>
 									{card.title}
 								</h2>
